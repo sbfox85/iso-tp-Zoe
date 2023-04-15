@@ -3,7 +3,7 @@
 #include <mcp_can.h>
 #include <mcp_can_dfs.h>
 #include <SPI.h>
-
+#define ISO_TP_DEBUG 1
 IsoTp::IsoTp(MCP_CAN* bus, uint8_t mcp_int)
 {
   _mcp_int = mcp_int;
