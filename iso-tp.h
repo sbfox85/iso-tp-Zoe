@@ -3,7 +3,7 @@
 
 #include <mcp_can.h>
 
-#define ISO_TP_DEBUG
+#define ISO_TP_DEBUG 1
 
 typedef enum {
   ISOTP_IDLE = 0,
